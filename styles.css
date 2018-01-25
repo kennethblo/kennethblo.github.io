@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+}
+h2 {
+    color: black;
+    text-transform: uppercase;
+}
+dl {
+    color: black;
+}
+dd {
+    color: black;
+}
+ul {
+    color: black;
+    list-style-type: square;
+}
+header, footer {
+  padding: 1em;
+  color: white;
+  background-color: black;
+  clear: left;
+  text-align: center;
+}
+header {
+  font-size: 200%;
+}
+skills {
+  float: left;
+  max-width: 160px;
+  margin: 0;
+  padding: 1em;
+}
+main {
+  margin-left: 170px;
+  border-left: 1px solid black;
+  padding: 1em;
+  overflow: hidden;
+}
