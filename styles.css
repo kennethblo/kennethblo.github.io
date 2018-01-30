@@ -1,39 +1,60 @@
+html {
+  height: 100%;
+}
+
 body {
-    background-color: grey;
+    background-color: rgb(238, 238, 238);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 h2 {
     color: black;
     text-transform: uppercase;
 }
-dl {
-    color: black;
-}
-dd {
-    color: black;
-}
 ul {
     color: black;
     list-style-type: square;
 }
-header, footer {
-  padding: 1em;
-  color: white;
-  background-color: black;
-  clear: left;
-  text-align: center;
-}
 header {
-  font-size: 200%;
+  padding: .5em;
+  color: black;
+  background-color: rgb(238, 238, 238);
+  clear: left;
+  text-align: left;
+  font-weight:bold;
+  font-size: 250%;
 }
-skills {
-  float: left;
-  max-width: 160px;
-  margin: 0;
+footer{
+  background-color: rgb(238, 238, 238);
+}
+.sidebar {
   padding: 1em;
+  background-color: rgb(238, 238, 238);
+  flex-grow: 0;
+  border-right: 2px solid black;
 }
-main {
-  margin-left: 170px;
-  border-left: 1px solid black;
+.main {
   padding: 1em;
   overflow: hidden;
+  flex-direction: column;
+  background: rgb(238, 238, 238);
+  flex-grow: 1;
+}
+.content {
+  flex-direction: row;
+  display: flex;
+}
+.contact-icon{
+  border-radius: 17px;
+  height: 64px;
+}
+.contact-icon:hover{
+  -webkit-filter: brightness(130%);
+}
+.profile{
+  border-radius: 20px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
