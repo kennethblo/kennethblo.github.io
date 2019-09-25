@@ -78,7 +78,7 @@ footer{
   height: 64px;
 }
 .contact-icon:hover{
-  filter: brightness(135%);
+  filter: invert(30%);
 }
 .profile{
   border-radius: 20px;
