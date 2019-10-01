@@ -17,7 +17,9 @@ a {
 a.website:hover {
   font-weight: bolder;
   text-decoration: underline;
-  color: blue;
+  color: white;
+  background-color: black;
+
 }
 body {
     background-color: rgb(112,128,144);
