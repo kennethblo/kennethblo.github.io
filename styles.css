@@ -18,7 +18,7 @@ a.website:hover {
   font-weight: bolder;
   text-decoration: underline;
   color: white;
-  background-color: black;
+  filter: invert(30%);
 
 }
 body {
